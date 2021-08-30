@@ -1,0 +1,7 @@
+USE mysql;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON `ifm_test`.* TO 'ifm'@'%';
+
+FLUSH PRIVILEGES;
+
+USE ifm_test;

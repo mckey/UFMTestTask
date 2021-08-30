@@ -1,0 +1,7 @@
+{
+    "driver":"mysqli",
+    "host":"mysql",
+    "name":"ifm_test",
+    "username":"ifm",
+    "password":"pa$$word"
+}

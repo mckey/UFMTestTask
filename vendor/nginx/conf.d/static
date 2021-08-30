@@ -1,0 +1,10 @@
+    location / {
+        if (-f $request_filename) {
+            expires max;
+            break;
+        }
+
+        if ($request_filename !~ "\.(js|htc|ico|gif|jpg|png|css)$") {
+            rewrite ^(.*) /index.php$1 last;
+        }
+    }
