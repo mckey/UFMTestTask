@@ -12,7 +12,7 @@
    - autoload.php - autoloader for models
  - /vendor - containers configuration files
  - /web
-   - **banner.php"" - required file
+   - **banner.php** - required file
    - index.php
    - **index1.html** - required file
    - **index2.html** - required file
